@@ -15,12 +15,12 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    height: auto
 }
 
 .heading {
@@ -33,30 +33,26 @@ p {
     line-height: 1.5
 }
 
-.hero-section {
-    background: #7030cc;
-    /* height: 100vh; */
+.hero-section,
+.hero-section-two {
     color: #fff;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    margin: 30px;
+    margin: 30px
+}
+
+.hero-section {
+    background: #7030cc
 }
 
 .hero-section-two .welcome-title {
-    /* content: ''; */
-    background-color: rgba(0, 0, 0, 0.1);
-    /* height: 100%;
-    width: 100%; */
+    background-color: rgba(0, 0, 0, .1)
 }
 
 .hero-section-two {
-    background: url('../32010.jpg') no-repeat;
+    background: url(../32010.jpg) no-repeat;
     background-size: cover;
-    height: 100vh;
-    color: #fff;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    margin: 30px;
+    height: 100vh
 }
 
 .default-padding {
@@ -64,23 +60,23 @@ p {
 }
 
 .features.default-padding {
-    padding-left: unset;
+    padding-left: unset
 }
 
 navbar ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .main-menu li.active {
-    color: #1bbcef;
+    color: #1bbcef
 }
 
 .main-menu li.active::after {
-    content: '';
+    content: "";
     display: block;
     height: 1px;
-    background: hotpink;
+    background: #ff69b4
 }
 
 navbar {
@@ -94,9 +90,8 @@ navbar {
     font-size: 18px
 }
 
-
 .main-menu li:last-child {
-    justify-self: center;
+    justify-self: center
 }
 
 .main-menu li {
@@ -106,7 +101,7 @@ navbar {
 .contact-us {
     justify-self: flex-end;
     padding: 10px 30px;
-    background-color: #1bbcef;
+    background-color: #1bbcef
 }
 
 .contact-us a {
@@ -129,7 +124,7 @@ navbar {
     display: grid;
     grid-template-columns: 2.5fr 4fr;
     font-size: 60px;
-    column-gap: 80px;
+    column-gap: 80px
 }
 
 .welcome-title {
@@ -138,69 +133,68 @@ navbar {
 
 .welcome-title h1 {
     font-size: 44px;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .features {
-    display: flex;
+    display: flex
 }
 
 .features img {
-    transform: scale(0.8);
+    transform: scale(.8)
 }
 
 .use-cases-banner {
-    flex: 1.3;
+    flex: 1.3
 }
 
 .features-list {
     flex: .7;
-    margin-top: 150px;
+    margin-top: 150px
 }
 
 .features-list h2,
 .primary-features h2 {
     font-size: 34px;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
 .list-before+* {
     display: inline-block;
-    padding-bottom: 16px;
+    padding-bottom: 16px
 }
 
 .features-list li {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 span.list-before svg {
     width: 20px;
     position: absolute;
-    left: -26px;
+    left: -26px
 }
 
 .orange path {
-    fill: #f28a3f;
+    fill: #f28a3f
 }
 
 .green path {
-    fill: #7aca3a;
+    fill: #7aca3a
 }
 
 .blue path {
-    fill: #3f9cf2;
+    fill: #3f9cf2
 }
 
 .primary-features {
-    text-align: center;
+    text-align: center
 }
 
 .primary-features.cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* column-gap: 40px; */
-    margin: 0 100px;
+    margin: 0 100px
 }
 
 .primary-features.card {
@@ -210,7 +204,7 @@ span.list-before svg {
     box-shadow: 3px 3px 3px #9c9cab8a;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 200px
 }
 
 .primary-features .figure {
@@ -219,38 +213,38 @@ span.list-before svg {
     border-radius: 50%;
     position: relative;
     margin-bottom: 24px;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .primary-features .figure img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
 }
 
 .primary-features.card p {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .primary-features.card .description {
-    padding: 20px;
+    padding: 20px
 }
 
 .primary-features.card.active .description {
     background: #6429b7;
     color: #fff;
     border-radius: 30px;
-    position: relative;
+    position: relative
 }
 
 .wave .primary-features.card.active .description {
-    background: unset;
+    background: unset
 }
 
 .wave .primary-features.card.active .description::before {
-    background: url('../wave.svg') no-repeat;
+    background: url(../wave.svg)no-repeat;
     content: "";
     position: absolute;
     bottom: 0;
@@ -260,5 +254,5 @@ span.list-before svg {
     background-size: cover;
     z-index: -1;
     background-position-x: center;
-    transform: scaleX(-1);
+    transform: scaleX(-1)
 }
